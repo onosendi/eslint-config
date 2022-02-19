@@ -1,6 +1,6 @@
 {
   "name": "@onosendi/eslint-config",
-  "version": "1.0.7",
+  "version": "2.0.0",
   "author": "Daniel Lindegren",
   "description": "My shareable ESLint config",
   "license": "MIT",
