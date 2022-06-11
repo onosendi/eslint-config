@@ -7,8 +7,10 @@
   "main": "lib/default.js",
   "scripts": {
     "lint": "eslint --ext .js lib",
-    "test": "npm run lint && node .",
-    "posttest": "aud --production",
+    "pretest": "npm run --silent lint",
+    "test": "npm run --silent tests-only",
+    "tests-only": "node .",
+    "posttest": "aud --omit=dev",
     "version": "auto-changelog && git add CHANGELOG.md",
     "postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\"",
     "prepublish": "not-in-publish || npm run prepublish-only",
@@ -29,13 +31,15 @@
   "devDependencies": {
     "aud": "^2.0.0",
     "auto-changelog": "^2.4.0",
-    "eslint": "^8.9.0",
+    "eslint": "^8.17.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-import": "^2.26.0",
     "in-publish": "^2.0.1",
     "safe-publish-latest": "^2.0.0"
   },
   "peerDependencies": {
-    "eslint": ">= 8"
+    "eslint": "^8.17.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
   }
 }
