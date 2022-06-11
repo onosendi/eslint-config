@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.2.0](https://github.com/onosendi/eslint-config/compare/v2.1.0...v2.2.0) - 2022-06-11
+
+### Commits
+
+- [Add] typescript peer dependencies [`48687af`](https://github.com/onosendi/eslint-config/commit/48687afedcec6c2bb2321abe059beaf4d1ac3485)
+
 ## [v2.1.0](https://github.com/onosendi/eslint-config/compare/v2.0.1...v2.1.0) - 2022-06-11
 
 ### Commits
