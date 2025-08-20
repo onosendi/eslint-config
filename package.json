@@ -6,8 +6,8 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint --ext .js lib",
-    "pretest": "npm run --silent lint",
-    "test": "npm run --silent tests-only",
+    "pretest": "npm run lint",
+    "test": "npm run tests-only",
     "tests-only": "node esm.js && node ts.js",
     "posttest": "npm audit",
     "version": "auto-changelog && git add CHANGELOG.md",
