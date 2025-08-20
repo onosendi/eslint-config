@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v3.1.0](https://github.com/onosendi/eslint-config/compare/v3.0.0...v3.1.0) - 2025-08-19
+
+### Commits
+
+- feat: add import/order rule and update Node.js to v22.18.0 [`d4b57e7`](https://github.com/onosendi/eslint-config/commit/d4b57e7edf60977afc47eb0b2401ed82e4814da6)
+
 ## [v3.0.0](https://github.com/onosendi/eslint-config/compare/v2.3.0...v3.0.0) - 2025-05-09
 
 ### Commits
